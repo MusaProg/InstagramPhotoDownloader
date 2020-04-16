@@ -1,0 +1,23 @@
+body {
+    background-image: url("images/cool-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#aboutBlock {
+    border: 1px solid black;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: -webkit-center;
+    background: wheat;
+}
+
+#statistics {
+    border: 1px solid black;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: -webkit-center;
+    background: wheat;
+}

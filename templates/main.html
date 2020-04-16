@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- загружаем bootstrap -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="../static/main.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div id="fullscreen_bg" class="fullscreen_bg"/>
+    <div id="_block">
+      <p><a class="btn btn-lg btn-primary" href = "/about" role="button" id="aboutButton">О проекте</a></p>
+      <form class="form-inline">
+        <div class="input-group-lg mb-3" id="mainDIV">
+            <label class="sr-only" >Email</label>
+            <input type="url" class="form-control" id="inputURL" placeholder="link to the instagram photo">
+            <button type="submit" class="btn btn-primary btn-lg" id="button">GO!</button>
+        </div>
+      </form>
+  </div>
+
+  <div class="carousel-inner h-25 d-inline-block" role="listbox" id="_hide" style="display: none;">
+    <div class="item active">
+      <img class="slide" src="http://placehold.it/800x300" id="image" alt="First slide" download="download.jpg">
+      <div class="container">
+        <div class="carousel-caption">
+          <p><a class="btn btn-lg btn-primary" href="/register" role="button" id="downloadButton">Download</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="../static/main.js"></script>
+</body>
+</html>

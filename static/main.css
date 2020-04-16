@@ -1,0 +1,36 @@
+#inputURL, #button {
+  display: inline;
+}
+
+#inputURL {
+  width: 50%;
+}
+
+#mainDIV {
+  position: relative;
+  left: 30%;
+  width: 70%;
+  margin-top: 15%;
+}
+
+body {
+  background-image: url("images/cool-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#image{
+  height: -webkit-fill-available;
+  width: auto;
+  margin: auto;
+}
+
+.item {
+  background:rgba(0,0,0,0.6);
+}
+
+#aboutButton {
+  margin-left: 90.5%;
+  margin-top: 0.3%;
+}
